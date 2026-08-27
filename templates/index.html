@@ -81,7 +81,7 @@
 
              <div class="floating-card card-left">
                     <div class="card-img">
-                    <img src="{{ url_for('static', filename='img/demo/snap-landing.png') }}" alt="landing img 1">
+                    <img src="{{ url_for('static', filename='img/demo/snap-teacher-flow-attendance-report.png') }}" alt="landing img 1">
                   </div>
                    </div>
 
@@ -142,7 +142,7 @@
                             </p>
                         </div>
                         <div class="flow-image">
-                            <img src="{{ url_for('static', filename='img/demo/snap-landing.png') }}" alt="flow image">
+                            <img src="{{ url_for('static', filename='img/demo/snap-teacher-flow-1-login.png') }}" alt="flow image">
                         </div>
                     </div>
 
@@ -156,7 +156,7 @@
                         </div>
 
                         <div class="flow-image">
-                            <img src="{{ url_for('static', filename='img/demo/snap-landing.png') }}" alt="flow image">
+                            <img src="{{ url_for('static', filename='img/demo/snap-teacher-flow-2-dashboard.png') }}" alt="flow image">
                         </div>
                     </div>
 
@@ -170,13 +170,28 @@
                         </div>
 
                         <div class="flow-image">
-                            <img src="{{ url_for('static', filename='img/demo/snap-landing.png') }}" alt="flow image">
+                            <img src="{{ url_for('static', filename='img/demo/snap-teacher-flow-3-create-course.png') }}" alt="flow image">
+                        </div>
+                    </div>
+
+                    <div class="flow-step">
+                        <div class="flow-content">
+                            <div class="step-badge">STEP 04</div>
+                            <h3>Share Course Link</h3>
+                            <p>
+                                Create a unique course link or QR code and share it with your class.
+                                Students can join instantly with just one click or scan.
+                            </p>
+                        </div>
+
+                        <div class="flow-image">
+                            <img src="{{ url_for('static', filename='img/demo/snap-teacher-flow-4-share-qr-or-link.png') }}" alt="Share course link">
                         </div>
                     </div>
 
                    <div class="flow-step">
                         <div class="flow-content">
-                            <div class="step-badge">STEP 04</div>
+                            <div class="step-badge">STEP 05</div>
                             <h3>FaceID Attendance</h3>
                             <p>
                                 Use high-speed computer vision to scan the entire room. Our AI identifies every student from a single class photo.
@@ -184,13 +199,13 @@
                         </div>
 
                         <div class="flow-image">
-                            <img src="{{ url_for('static', filename='img/demo/snap-landing.png') }}" alt="flow image">
+                            <img src="{{ url_for('static', filename='img/demo/snap-teacher-flow-5.2-photo-attendance.png') }}" alt="flow image">
                         </div>
                     </div>
 
                     <div class="flow-step">
                         <div class="flow-content">
-                            <div class="step-badge">STEP 05</div>
+                            <div class="step-badge">STEP 06</div>
                             <h3>Voice ID Attendance</h3>
                             <p>
                                 Switch to voice mode for a futuristic roll-call. Students speak sequentially, and our AI matches their unique voice signatures.
@@ -198,13 +213,13 @@
                         </div>
 
                         <div class="flow-image">
-                            <img src="{{ url_for('static', filename='img/demo/snap-landing.png') }}" alt="flow image">
+                            <img src="{{ url_for('static', filename='img/demo/snap-teacher-flow-5.1-voice-attendance.png') }}" alt="flow image">
                         </div>
                     </div>
 
                     <div class="flow-step">
                         <div class="flow-content">
-                            <div class="step-badge">STEP 06</div>
+                            <div class="step-badge">STEP 07</div>
                             <h3>Actionable Records</h3>
                             <p>
                                 Review and manage historical logs. View confidence scores, download CSV reports, and track long-term attendance trends.
@@ -212,7 +227,7 @@
                         </div>
 
                         <div class="flow-image">
-                            <img src="{{ url_for('static', filename='img/demo/snap-landing.png') }}" alt="flow image">
+                            <img src="{{ url_for('static', filename='img/demo/snap-teacher-flow-5-see-stored-records.png') }}" alt="flow image">
                         </div>
                     </div>
 
@@ -267,6 +282,82 @@
 
                 </div>
             </section>
+
+            <section id="student-journey" class="teacher-flow">
+                <div class="flow-container">
+
+                    <div class="section-tag"
+                        style="text-align: center; margin-bottom: 40px; display:block;">
+                        —Student Workflow—
+                    </div>
+
+                    <h2 style="text-align: center; font-size:3.5rem; margin-bottom: 80px;">
+                        The Student's Journey
+                    </h2>
+
+                    <div class="flow-step">
+                        <div class="flow-content">
+                            <div class="step-badge">STEP 01</div>
+
+                            <h3>Secure Login</h3>
+
+                            <p>
+                                Start your SnapClass experience with a secure student
+                                login. Access your personalized academic dashboard with
+                                your credentials.
+                            </p>
+                        </div>
+
+                        <div class="flow-image">
+                            <img src="{{ url_for('static', filename='img/demo/snap-student-flow-1-login.png') }}"
+                                alt="Student secure login">
+                        </div>
+                    </div>
+
+                    <div class="flow-step">
+                        <div class="flow-content">
+                            <div class="step-badge">STEP 02</div>
+
+                            <h3>Student Dashboard</h3>
+
+                            <p>
+                                Get a complete overview of your subjects, attendance,
+                                recent activity, and academic information from one
+                                simple dashboard.
+                            </p>
+                        </div>
+
+                        <div class="flow-image">
+                            <img src="{{ url_for('static', filename='img/demo/snap-student-flow-3-dashboard.png') }}"
+                                alt="Student dashboard">
+                        </div>
+                    </div>
+
+
+                    <!-- STEP 03 -->
+                    <div class="flow-step">
+                        <div class="flow-content">
+                            <div class="step-badge">STEP 03</div>
+
+                            <h3>Enroll in Subjects</h3>
+
+                            <p>
+                                Join your required subjects and courses. Keep your
+                                academic profile organized and connected with your
+                                classroom.
+                            </p>
+                        </div>
+
+                        <div class="flow-image">
+                            <img src="{{ url_for('static', filename='img/demo/snap-student-flow-2-enroll.png') }}"
+                                alt="Student subject enrollment">
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            
 
             <footer class="main-footer">
                 <div class="footer-grid">
