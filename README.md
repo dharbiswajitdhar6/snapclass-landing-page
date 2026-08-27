@@ -34,3 +34,8 @@ The actual AI attendance application is maintained separately.
 
 **AI Attendance System:**  
 https://github.com/dharbiswajitdhar6/snapclass-ai-attendance
+
+
+## 👨‍💻 Author
+
+Biswajit Dhar
